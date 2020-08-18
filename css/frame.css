@@ -59,11 +59,19 @@ li ul {
 }
 
 hr {
-  border: 0;
+  /*border: 0;
   height: 1px;
   background: #333;
-  margin: 0 0 10px 0;
-}
+  margin: 0 0 10px 0;*/
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
 
 .menu-container {
   z-index: 2;
